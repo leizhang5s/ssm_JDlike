@@ -1,0 +1,75 @@
+#books
+{
+
+    display: block;
+    margin-right: 15px;
+}
+#books .title a
+{
+    color:red;
+    text-decoration: underline;
+}
+#books .book
+{
+    float:left;
+    margin-right: 25px;
+    margin-top:30px;
+}
+#books .book-box
+{
+    width: 132px;
+    height: 119px;
+    text-align: center;
+    vertical-align:middle;
+    background: url(../images/new_prod_box.gif) no-repeat center;
+    position: relative;
+}
+#books .book .new img
+{
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+#books .book img
+{
+    padding-top: 10px;
+    width: 60px;
+    height: 100px;
+}
+.pagination
+{
+    width: 420px;
+    padding: 5px;
+    margin: 40px 5px;
+    text-align: center;
+    float:left;
+    clear: both;
+    font-size: 10px;
+}
+div.pagination span.disabled {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #f3f3f3;
+    color: #ccc;
+}
+div.pagination span.current {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #795636;
+    font-weight: bold;
+    background-color: #795636;
+    color: #FFF;
+}
+.pagination a
+{
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #795636;
+    text-decoration: none;
+    color: #795636;
+}
+.pagination .noborder
+{
+	border:0px;
+}

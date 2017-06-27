@@ -1,0 +1,153 @@
+#contact
+{
+    width: 355px;
+    float: left;
+    padding: 25px;
+    margin: 10px 0 0 15px;
+    border: 1px #DFD1D2 dashed;
+    position: relative;
+}
+#contact .contact_title
+{
+    position: absolute;
+    top: -11px;
+    left: 7px;
+    width: auto;
+    height: 20px;
+    background-color: #795636;
+    text-align: center;
+    padding: 0 7px 0 7px;
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 20px;
+    z-index: 200;
+}
+#contact .row1 label,.row2 label
+{
+    color:black;
+    font-size: 13px;
+    font-family: 华文细黑;
+    font-weight: bold;
+}
+#contact .row3 label,.row4 label
+{
+    color:#900;
+    font-size: 13px;
+    font-family: 华文细黑;
+    font-weight: bold;
+}
+#contact .row1 input, .row2 input,.row3 input
+{
+        width: 180px;
+        border-radius: 3px;
+}
+#contact .row2 input,.row3 input,.row4
+{
+    margin-top: 12px;
+}
+#contact .row5 textarea
+{
+    width: 253px;
+    height: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #999999;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px #DFDFDF solid;
+    margin-left: 30px;
+}
+/*#contact .row3
+{
+    margin-top:8px;
+    margin-left: 51px;
+    font-size:12px;
+    color:#900;
+}*/
+#contact .row6 a
+{
+    margin-top: 20px;
+   margin-right: 72px;
+    float:right;
+    color:#900;
+    width: 53px;
+    height: 24px;
+    display: block;
+    background: url(../images/contact_bt.gif) no-repeat center;
+    text-decoration: none;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+}
+#contact_top
+{
+    margin-top: 10px;
+    display: block;
+    margin-right: 15px;
+}
+#contact_top img
+{
+    padding-top: 10px;
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+#contact_top .item
+{ 
+    padding: 10px 0 10px 10px;
+    margin: 10px 30px 20px 0;
+    display: block;
+}
+#contact_top .item p
+{
+    padding-left: 20px;
+}
+#contact_top .item img
+{ 
+    width: 98px;
+    height: 150px;
+}
+#contact_top .item-right
+{
+    width: 295px;
+    float: left;
+    padding: 0 0 0 25px;
+    display: block;
+}
+#contact_top .box_top
+{
+    width: 295px;
+    height: 9px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/box_top.gif) no-repeat center bottom;
+}
+#contact_top .box_center
+{
+    width: 295px;
+    height: auto;
+    margin:0;
+    padding: 0;
+    background: url(../images/box_center.gif) repeat-y center;
+}
+#contact_top .box_bottom
+{
+    width: 295px;
+    height: 9px;
+    background: url(../images/box_bottom.gif) no-repeat center top;
+}
+#contact_top .orange
+{
+    color:#f8981d;
+    font-size: 13px;
+    padding-left: 15px;
+}
+#contact_top .orange2
+{
+    color:#f8981d;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: right;
+    text-shadow:5px 2px 6px #f8981d;
+}

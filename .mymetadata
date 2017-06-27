@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="JDlike_ssm"
+  id="myeclipse.1497252303289"
+  context-root="/JDlike_ssm"
+  j2ee-spec="6.0"
+  archive="JDlike_ssm.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

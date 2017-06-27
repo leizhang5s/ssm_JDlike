@@ -1,0 +1,46 @@
+#footer
+{
+    margin: 0 auto;
+    height: 100px;
+    width: 900px;
+    border-top: 1px #b2b2b2 dashed;
+    background: url(../images/footer_bg.gif) no-repeat bottom;
+}
+.footer-left
+{
+    margin: 10px;
+}
+.footer-right
+{
+    float: right;
+    color: #b5b5b6;
+    font-size: small;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer-right a
+{
+    text-decoration: none;
+}
+.footer-right a:link
+{
+    color: #b5b5b6;
+    font-size: small;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer-right a:hover
+{
+    border-style:dotted;
+    border-color: orange;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer-right a:visited
+{
+     color: #b5b5b6;
+    font-size: small;
+    margin-top: 10px;
+    margin-left: 10px;
+}

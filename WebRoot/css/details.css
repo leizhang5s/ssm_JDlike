@@ -1,0 +1,150 @@
+#detailsdetails .item {
+	float: left;
+	padding: 10px 0 10px 10px;
+	margin: 10px 30px 20px 0;
+	border-bottom: 1px #b2b2b2 dashed;
+	display: block;
+}
+
+#detailsdetails .item-left {
+	float: left;
+	display: block;
+}
+
+#detailsdetails .item img {
+	width: 98px;
+	height: 150px;
+}
+
+#detailsdetails .item-right {
+	width: 295px;
+	float: left;
+	padding: 0 0 0 25px;
+	display: block;
+	position: relative;
+}
+
+#detailsdetails .item-right span {
+	position: absolute;
+	top: 0px;
+	right: 2px;
+	z-index: 250;
+}
+
+#detailsdetails .item-right span img {
+	width: 55px;
+	height: 55px;
+}
+
+#detailsdetails .box_top {
+	width: 295px;
+	height: 9px;
+	margin: 0;
+	padding: 0;
+	background: url(../images/box_top.gif) no-repeat center bottom;
+}
+
+#detailsdetails .box_center {
+	width: 295px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background: url(../images/box_center.gif) repeat-y center;
+}
+
+#detailsdetails .box_bottom {
+	width: 295px;
+	height: 9px;
+	background: url(../images/box_bottom.gif) no-repeat center top;
+}
+
+#detailsdetails .orange {
+	color: #f8981d;
+	font-size: 13px;
+	padding-left: 15px;
+}
+
+#detailsdetails .orange2 {
+	color: #f8981d;
+	font-size: 13px;
+	padding-left: 15px;
+	padding-right: 10px;
+	text-align: right;
+	text-shadow: 5px 2px 6px #f8981d;
+}
+
+#detailsdetails #content-left-bottom {
+	clear: left;
+}
+
+#detailsdetails .title a {
+	color: red;
+	text-decoration: underline;
+}
+
+.title {
+	padding: 5px 0 5px 0;
+	color: #b5b5b6;
+	text-decoration: none;
+	display: block;
+	font-size: 13px;
+	width: 132px;
+	text-align: center;
+}
+
+marquee {
+	background: url(../images/footer_logo.gif) no-repeat;
+	margin-left: -5px;
+	text-shadow: 2px 2px 1px #ccc;
+	background-origin: border-box;
+	background-position: left;
+	color: #900;
+}
+
+fieldset {
+	width: 459.5px;
+	font-size: 15px;
+	border-style: dashed;
+	font-family: 微软雅黑;
+	text-decoration: none;
+	display: block;
+}
+
+fieldset legend {
+	z-index: 200;
+	font-family: 宋体;
+	font-size: 15px;
+	font-weight: bold;
+	border-style: dashed;
+	margin-left: 15px;
+}
+
+fieldset hr {
+	margin: 20px 40px 15px 15px;
+	border: dotted;
+}
+
+fieldset p {
+	padding: 5px 15px 5px 15px;
+	font-size: 13px;
+	margin: 0px;
+	text-align: justify;
+	line-height: 19px;
+}
+
+.ttt {
+	margin-left: 15px;
+	margin-right: 40px;
+}
+
+.ttt span {
+	background: url(../images/left_menu_bullet.gif) no-repeat;
+	padding-left: 15px;
+	background-position: left;
+}
+
+#detailsdetails .addtocart {
+	margin-top: 30px;
+	float: right;
+	margin-right: -5px;
+}

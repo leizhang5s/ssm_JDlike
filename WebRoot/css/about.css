@@ -1,0 +1,77 @@
+
+#content-left qouteblock
+{
+    display:block;
+    font-size: 10px;
+}
+#about
+{
+    margin-top: 10px;
+    display: block;
+    margin-right: 15px;
+}
+#about img
+{
+    padding-top: 10px;
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+#about .item
+{ 
+    padding: 10px 0 10px 10px;
+    margin: 10px 30px 20px 0;
+    display: block;
+}
+#about .item p
+{
+    padding-left: 20px;
+}
+#about .item img
+{ 
+    width: 98px;
+    height: 150px;
+}
+#about .item-right
+{
+    width: 295px;
+    float: left;
+    padding: 0 0 0 25px;
+    display: block;
+}
+#about .box_top
+{
+    width: 295px;
+    height: 9px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/box_top.gif) no-repeat center bottom;
+}
+#about .box_center
+{
+    width: 295px;
+    height: auto;
+    margin:0;
+    padding: 0;
+    background: url(../images/box_center.gif) repeat-y center;
+}
+#about .box_bottom
+{
+    width: 295px;
+    height: 9px;
+    background: url(../images/box_bottom.gif) no-repeat center top;
+}
+#about .orange
+{
+    color:#f8981d;
+    font-size: 13px;
+    padding-left: 15px;
+}
+#about .orange2
+{
+    color:#f8981d;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: right;
+}

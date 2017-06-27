@@ -1,0 +1,239 @@
+
+#register {
+
+    width: 355px;
+
+    float: left;
+
+    padding: 25px;
+
+    margin: 10px 0 0 15px;
+
+    border: 1px #DFD1D2 dashed;
+
+    position: relative;
+
+}
+
+#register .reg_title {
+
+    position: absolute;
+
+    top: -11px;
+
+    left: 7px;
+
+    width: auto;
+
+    height: 20px;
+
+    background-color: #795636;
+
+    text-align: center;
+
+    padding: 0 7px 0 7px;
+
+    color: #FFFFFF;
+
+    font-size: 11px;
+
+    line-height: 20px;
+
+    z-index: 200;
+
+}
+
+#register .row1 label,
+
+.row2 label {
+
+    color: black;
+
+    font-size: 13px;
+
+    font-family: »ªÎÄÏ¸ºÚ;
+
+    font-weight: bold;
+
+}
+
+#register .row1 input,
+
+.row2 input {
+
+    display: block;
+
+    width: 270px;
+
+    border-radius: 3px;
+
+}
+
+#register .row2 input {
+
+    margin-top: 12px;
+
+    margin-left: 1px;
+
+}
+
+#register .row3 {
+
+    margin-top: 20px;
+
+    margin-left: 210px;
+
+    font-size: 12px;
+    
+	display:bolck;
+	
+    color: #900;
+
+}
+
+#register .row4 {
+
+    margin-top: 20px;
+
+    margin-left: 230px;
+	
+    padding: 0;
+
+}
+#register .row3 span
+{
+	position:absolute;
+	
+	right:25px;
+}
+#register .row4 input
+{
+	
+}
+#reg_top {
+
+    margin-top: 10px;
+
+    display: block;
+
+    margin-right: 15px;
+
+}
+
+#reg_top img {
+
+    padding-top: 10px;
+
+    float: right;
+
+    width: 150px;
+
+    height: 150px;
+
+}
+
+#reg_top .item {
+
+    padding: 10px 0 10px 10px;
+
+    margin: 10px 30px 20px 0;
+
+    display: block;
+
+}
+
+#reg_top .item p {
+
+    padding-left: 20px;
+
+}
+
+#reg_top .item img {
+
+    width: 98px;
+
+    height: 150px;
+
+}
+
+#reg_top .item-right {
+
+    width: 295px;
+
+    float: left;
+
+    padding: 0 0 0 25px;
+
+    display: block;
+
+}
+
+#reg_top .box_top {
+
+    width: 295px;
+
+    height: 9px;
+
+    margin: 0;
+
+    padding: 0;
+
+    background: url(images/box_top.gif) no-repeat center bottom;
+
+}
+
+#reg_top .box_center {
+
+    width: 295px;
+
+    height: auto;
+
+    margin: 0;
+
+    padding: 0;
+
+    background: url(images/box_center.gif) repeat-y center;
+
+}
+
+#reg_top .box_bottom {
+
+    width: 295px;
+
+    height: 9px;
+
+    background: url(images/box_bottom.gif) no-repeat center top;
+
+}
+
+#reg_top .orange {
+
+    color: #f8981d;
+
+    font-size: 13px;
+
+    padding-left: 15px;
+
+}
+
+#reg_top .orange2 {
+
+    color: #f8981d;
+
+    font-size: 13px;
+
+    padding-left: 15px;
+
+    padding-right: 10px;
+
+    text-align: right;
+
+    text-shadow: 5px 2px 6px #f8981d;
+
+}
+
+#register iframe {
+
+    margin-top: 20px;
+
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.leizhang.dao.UserMapper">
+	<select id="selectUserByName" parameterType="java.lang.String"
+		resultType="cn.leizhang.domain.User">
+		select * from users where username=#{username}
+
+	</select>
+	<select id="selectUserById" parameterType="long"
+		resultType="cn.leizhang.domain.User">
+		select * from users where userid=#{userid}
+
+	</select>
+	<update id="updateUserById" parameterType="cn.leizhang.domain.User">
+		update users set truename=#{truename},
+		email=#{email},phone=#{phone},address_=#{address_} where
+		userid=#{userid}
+
+	</update>
+	<insert id="InserUser" parameterType="cn.leizhang.domain.RegistUserVo">
+		insert into users (userid,username,password_) values (null,#{username},#{password_})
+	</insert>
+
+</mapper>

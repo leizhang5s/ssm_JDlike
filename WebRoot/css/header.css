@@ -1,0 +1,102 @@
+#header {
+	width: 900px;
+	height: 181px;
+	background-image: url(../images/header.jpg);
+	margin: 0 auto;
+	position: relative;
+}
+
+#header img {
+	display: inline;
+	margin-top: 53px;
+	margin-left: 143px;
+	margin-right: auto;
+}
+
+#login {
+	float: right;
+	margin-bottom: 5px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #EBEAD8;
+	font-size: small;
+}
+
+#login input {
+	color: white;
+	background-color: transparent;
+	border-radius: 5px;
+	height: 20px;
+	margin-top: 4px;
+}
+
+#login #denglu {
+	float: right;
+	margin-right: 1px;
+	margin-top: 1px;
+	font-family: fantasy;
+}
+
+#login #denglu input {
+	font-family: fantasy;
+	text-align: center;
+	padding-top: 0;
+	color: white;
+}
+
+#menu {
+	width: 628px;
+	height: 30px;
+	margin-top: 65px;
+	color: white;
+	font-size: small;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+}
+
+#menu a:hover {
+	color: #f7a849;
+}
+
+.selected {
+	color: #f7a849;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 30px;
+}
+
+#menu .selected {
+	color: #f7a849;
+}
+
+#header .welcome {
+	position: absolute;
+	right: 10px;
+	bottom: 35px;
+	font-family: свт╡, cursive;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.welcome a:LINK {
+	color: black;
+}
+
+.welcome a:VISITED {
+	color: black;
+}
+
+.welcome a:hover {
+	color:white;	
+}
